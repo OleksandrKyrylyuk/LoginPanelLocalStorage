@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>User Page</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/userpage.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<h1 class="d-flex justify-content-end"><span>Sasha</span>   
+				<svg width="50" height="50">
+					<circle cx="20" cy="20" r="18" stroke="gray" stroke-width="4" fill="yellow" />
+					<text fill="#gray" font-size="20" font-family="Verdana" x="13" y="27">S</text>
+				</svg>
+			</h1>
+		</div>
+	</div>	
+
+	<div class="card bg-secondary mb-3 d-none">
+  		<div class="card-header">
+			<h4>Profile Info</h4>
+			<span><button type="button" class="btn-close ms-2 mb-1" data-bs-dismiss="toast" aria-label="Close"></span>
+    			<span aria-hidden="true"></span>
+			</button>
+		</div>
+  		<div class="card-body">
+			<div class="form-group bg-secondary">
+				<fieldset>
+					<label class="form-label mt-4" for="name">Name</label>
+					<input class="form-control" id="name"` type="text" placeholder="." readonly="">
+					<label class="form-label mt-4" for="email">Email</label>
+					<input class="form-control" id="email" type="text" placeholder="" readonly="">
+					<label class="form-label mt-4" for="login">Login</label>
+					<input class="form-control" id="login" type="text" placeholder="" readonly="">
+					<label class="form-label mt-4" for="password">Password</label>
+					<input class="form-control" id="password" type="password" placeholder="" readonly="">
+				</fieldset>
+    		</div>
+  		</div>
+	</div>
+
+
+
+
+	<script src='js/userpage.js'></script>   	
+</body>
+</html>
